@@ -1,0 +1,21 @@
+level,model,MAE,RMSE,WAPE_%
+overall,Linear Regression,15.7629,18.3549,5.4197
+overall,Random Forest,14.7047,16.2803,5.0559
+overall,XGBoost,3.1055,3.6263,1.0678
+overall,SVM (SVR),14.2979,21.1498,4.916
+overall,Reference: same month last year,1.3865,1.5641,0.4767
+unit,Linear Regression,18.4997,21.2517,19.0822
+unit,Random Forest,5.7406,7.8744,5.9213
+unit,XGBoost,1.6922,2.4491,1.7454
+unit,SVM (SVR),5.7109,9.86,5.8907
+unit,Reference: same month last year,0.9176,1.1981,0.9465
+region,Linear Regression,8.9414,13.9601,27.6689
+region,Random Forest,2.1709,4.6117,6.7178
+region,XGBoost,1.2335,1.9742,3.8171
+region,SVM (SVR),2.2708,5.02,7.0269
+region,Reference: same month last year,0.3391,0.6819,1.0494
+zone,Linear Regression,2.0678,5.5734,34.8376
+zone,Random Forest,0.4974,1.9131,8.3802
+zone,XGBoost,0.6429,1.0926,10.8311
+zone,SVM (SVR),0.931,3.1648,15.6851
+zone,Reference: same month last year,0.0813,0.3082,1.3697
